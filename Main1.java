@@ -32,7 +32,7 @@ public class Main1 {
     System.out.print("Enter Student Age: ");
     int age = scanner.nextInt();
     System.out.print("Enter phone number of parent: ");
-    double phone = scanner.nextDouble();
+    int phone = scanner.nextInt();
  
     Student student = new Student(name, age, phone);
  
